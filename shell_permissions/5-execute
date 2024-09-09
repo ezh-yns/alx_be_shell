@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# File name
+FILE="hello"
+
+# Check if the file exists
+if [ -e "$FILE" ]; then
+    # Add execute permission for the owner
+    chmod u+x "$FILE"
+    echo "Execute permission added for the owner of $FILE."
+else
+    echo "File $FILE does not exist."
+fi
