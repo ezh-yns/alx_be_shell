@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod ug+x,o+r hello
-echo "Permissions set: execute for owner and group, read for others."
+chmod 754 hello ls -l hello
