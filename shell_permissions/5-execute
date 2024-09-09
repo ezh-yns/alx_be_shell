@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -e "hello" ] then chmod u+x "hello"; echo "Execute permission added for the owner of hello." else echo "File hello does not exist." fi
+if [ -e "hello" ] then chmod u+x "hello" echo "Execute permission added for the owner of hello." else echo "File hello does not exist." fi
